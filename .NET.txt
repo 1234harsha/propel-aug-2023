@@ -1,0 +1,970 @@
+What is .NET Framework?
+.NET Framework is a software development framework for building and running applications on Windows.
+.NET is a developer platform made up of tools, programming languages, and libraries for building many different types of applications.
+.NET supports running websites, services, desktop apps, and more on Windows.
+.NET is a cross-platform
+.NET was previously called .NET Core.
+.NET Standard is a formal specification of the APIs that are common across .NET implementations
+
+
+Architecture of .NET Framework
+The two major components of .NET Framework are the Common Language Runtime and the .NET Framework Class Library.
+1.The Common Language Runtime (CLR) is the execution engine that handles running applications.
+provides services like thread managment,garbage collection etc
+2.The Class Library provides a set of APIs and types for common functionality.
+provides types for strings, dates, numbers, etc. 
+class libraries include writing files coonecting to database
+
+
+.NET applications are wrritten C#,F#, or Visual Basic programming language then this code is converted into language-agnostic Common Intermediate Language (CIL). then complied code is stored in assesmblies files with .exe
+when the app runs the CLR takes the assesmbly and uses JIT to convert to machine code that can excuteon specific architecture of the computer it is running on
+
+ID
+``
+CODE, RUNNING, ETC CAN DONE
+
+FRAME WORK
+````````````
+IT HAVE SO MANY LANGUGE SUPPORT, LIBRARIES, ETC
+ITS  STRUCTURE
+ 
+COM(COMPONENT OBJECT MODEL 1993)
+````````````````````````````````
+ IT ONLY USED BY VISUAL BASIC USED TO BUILT WWINDOWS APPLICATION AND APS, SO IT CANNOT BE WORK ON ANOTHER PLATFOEM, IT SHOUND USE IN ANOTHER SO IT IS CONVERT
+IN 2002 IT START .NOT  --- IT SUPPORT 60 LANGUGE BUT IT DOSENT HAVE SYSTEM SUPPORT
+
+##MICROSOFT
+```````
+1993----COM(COMPONENT OBJECT MODEL 1993)
+        PRG LANGUAGE  : VISUAL BASIC(VB)
+        FOR WINDOWS APPLICATION AND APS (WEB APPLICATION)
+DISADVANTAGE
+```````
+>LANGUAGE SPECIFICS
+>SYSTEM SPECIFIC
+
+2002-----MICROSOFT DEVELOPED ANOTHER FRAME WORK  .NET FRAMEWORK
+        ABOUT 60 LANGUAGE (VB,C++,C#,F# , JSCRIPT, APL, COBOL, PYTHON  ETC....)====11 DEV BY MICROSOFT
+        FOR WINDOWS ONLY
+
+TYPES OF APLICATION WITH .NET FRAMEWORK
+``````````````````````````````````````````
+WINFORMS(WINDOWS FORMS)----FOR DEVELOPING FORM-BASED APPLICATIONS WHICH WOULD RUN ON END USER MACHINE
+EG:   NOTEPAD
+
+ASP.NET(active server page)--------FOR DEVELOPING WEB BASED APPLICATIONS WHICH R MADE TO RUN ON ANY BROWSERS
+EG: WEB BROWSERS
+
+ADO.NET(activeX data object)------FOR DEVELOPING APPLICATION TO INTERACT WITH DATABASES
+
+2016------.NET CORE
+`````````````````````````
+ > .NET CORE IT IS OPEN SOURCE
+ > ITS CROSS PLATFORM
+ > NOT LANGUAGE SPECIFIC
+
+CLR (COMMAN LANGUAGE RUN TIME)---MAKES INDEPENDENT
+`````````````````````````````````````
+LIKE JRE IN JAVA ------WHICH MAKE JAVA INDEPENDENT
+
+
+SUMMERY
+````````````
+>.NET FRAMWE WORK (2002 TILL NOW) IS A S/W DEVT FRAMEWORK FOR BUILDING AN D RUNNING APPLICATION ON WINDOWS 
+>SUPPORT 60 LANGUAGES
+>.NET CORE (2016 TILL NOW) IS A NEW VERSION OF.NET FRAMEWORK WHICH CAN RUN ON WINDOWS , LINEX ,MAC ETC SINCE ITS A CROSS PLATFOEM
+
+
+DI I NEED .NET FRAMEWORK
+``````````````````````````````
+(email)
+
+
+.NET FRAMEFORK ARCHITECTURE
+````````````````````````````````
+    2MAJOR COMPONENTS:
+  
+>CLR(COMMAN LANG RUNTIME)--------THE EXECUTION ENGINE THAT HANDLES APPLICATION.
+>BCL(BASE CLASS LIBRARYS)---------PROVIDES A SET OF API'S AND TYTPES FOR COMMAN FUNCTIONALITYS LIKE TYPES FOR STRING , NUMBER,READING AND WRITTING FILES, CONNECTING 
+                                   DATABASES ETC
+
+.NET FRAMEWORK COMPILATION PROCESS
+````````````````````````````````
+ANY LANGUAGE-------(CHANGE THAT LANGE TO COMMAN LANG)--COMMAN INTERMEDIATE LANGUAGE(cil)-------COMMAN LAG RUNTIME(CLR)--------------MACHINE CODE
+(email)
+
+
+###What is .NET Framework?
+.NET Framework is a software development framework for building and running applications on Windows.
+
+.NET Framework is part of the .NET platform, a collection of technologies for building apps for Linux, macOS, Windows, iOS, Android, and more
+
+###.NET and .NET Framework
+`````````````````````````
+>.NET---- is a developer platform made up of tools, programming languages, and libraries for building many different types of applications
+> .NET code---------- to execute in different places—Linux, macOS, Windows, iOS, Android, and many more
+>.NET Framework ------- It supports running websites, services, desktop apps, and more on Windows.
+>.NET ----is a cross-platform implementation for running websites, services, and console apps on Windows, Linux, and macOS.
+> .NET---- is open source on GitHub. 
+>.NET was previously called .NET Core.from .net framework
+> Xamarin/Mono---- is a .NET implementation for running apps mobile operating systems, including (OS and Android.)
+>.NET code to execute in different places—Linux, macOS, Windows, iOS, Android, and many more.
+ .NET Standard is a formal specification of the APIs that are common across all these .NET implementations.(mobile, desktop, IoT, web, or anywhere you write .NET code)
+
+Architecture of .NET Framework
+```````````````````````````````
+Common Language Runtime and the .NET Framework Class Library.
+
+1)Common Language Runtime (CLR)------ is the execution engine that handles running applications.
+-----------------------------                                              --------------------
+ It provides services like thread management, garbage collection, type-safety, exception handling, and more
+
+2)Class Library----- includes APIs for reading and writing files, connecting to databases, drawing, and more.
+
+             .NET applications are written in the C#, F#, or Visual Basic programming language. ====lang
+             Code is compiled into a language-agnostic Common Intermediate Language (CIL).=====compiled in cil then 
+              Compiled code is stored in assemblies—files with a .dll or .exe file extension.=====stored  as assembly files with file etension
+
+            When an app runs, the CLR takes the assembly and uses a just-in-time compiler (JIT)====assembly file uses on jit
+            to turn it con the specific architecture of the computer it is running on.===.
+
+ques)What is .NET Framework used for?
+ .NET Framework is used to create and run software applications.
+ .NET apps can run on many operating systems, using different implementations of .NET.
+ .NET Framework is used for running .NET apps on Windows.
+
+ques)Who uses .NET Framework?
+     Software developers and the users of their applications both use .NET Framework:
+
+ques)Why do I need .NET Framework?
+   You need .NET Framework installed to run applications on Windows that were created using .NET Framework.
+   It's already included in many versions of Windows.
+
+ques)How does .NET Framework work?
+  .NET Framework applications are written in C#, F#, or Visual Basic and compiled to Common Intermediate Language (CIL). 
+  The Common Language Runtime (CLR) runs .NET applications on a given machine, converting the CIL to machine code.
+
+ques)What are the main components/features of .NET Framework?
+  The two major components of .NET Framework are the Common Language Runtime (CLR) and the .NET Framework Class Library.
+  The CLR is the execution engine that handles running applications.
+  The Class Library provides a set of APIs and types for common functionality.
+
+ques)What is the difference between .NET and .NET Framework?
+     .NET is cross-platform and runs on Linux, macOS, and Windows. .NET Framework only runs on Windows.
+     .NET is open-source and accepts contributions from the community. The .NET Framework source code is available but doesn't take direct contributions.
+     All of the innovation happens in .NET.
+    .NET Framework is included in Windows and automatically updated machine-wide by Windows Update. .NET is shipped independently
+
+CTS
+`
+A common type system. In traditional programming languages, basic types are defined by the compiler,
+ which complicates cross-language interoperability. In .NET Framework, basic types are defined by the .NET Framework type system and are 
+common to all languages that target .NET F ramework
+
+IT SUPPORT 60 LANG ,COMMAN SET OF DATA TYPES--C++ WRITEN DATATYPE AND C# DATATYP R DIFF THEN, ALL LANG IN .NET NEED TO BE SAME DATA TYPE
+COMMAN LAG 
+
+CIL
+``
+Code is compiled into a language-agnostic Common Intermediate Language (CIL).
+
+META DATA
+````````
+Metadata means "data about data". Metadata is defined as the data providing information about one or more aspects of the data; 
+it is used to summarize basic information about data that can make tracking and working with specific data easier
+Metadata is a resource that enables you to create a more holistic picture of the data, understanding it fully in its context
+Metadata is defined as the information that describes and explains data. It provides context with details such as the source, type, owner,
+and relationships to other data sets.So, it can help you understand the relevance of a particular data set and guide you on how to use it. In a nutshell
+
+
+What is the .NET Standard?
+.NET Standard?
+``````````````
+. NET Standard allows libraries to build against the agreed on set of common APIs, ensuring they can be used in any
+ . NET application—mobile, desktop, IoT, web, or anywhere you write . NET code.
+
+ASSEMBLY
+```````
+Assemblies are the fundamental units of deployment, version control, reuse, activation scoping, and security permissions for .NET-based applications. An assembly 
+is a collection of types and resources that are built to work together and form a logical unit of functionality
+
+They provide the common language runtime with the information it needs to be aware of type implementations
+
+Assemblies take the form of executable (.exe) or dynamic link library (.dll) files, and are the building blocks of .NET applications.
+(.exe)---CAN WORK    ITSELF       (.dll)-----COVERT TO .EXE AND WORK IT
+
+In .NET and .NET Framework, you can build an assembly from one or more source code files. In .NET Framework, assemblies can contain one or more modules. This way,
+ larger projects can be planned so that several developers can work on separate source code files or modules, which are combined to create a single assembly
+
+
+.NET STANTARDS(CONTRACT OR AGREEMENT)---TWO VRSION GIVING CODE IT WORK ON BOTH BY STATADS
+``````````````
+There are various implementations of .NET. Each implementation allows .NET code to execute in different places—Linux, macOS, Windows, iOS, Android, and many more.
+ .NET Standard is a formal specification of the APIs that are common across all these .NET implementations.
+
+.NET Standard allows libraries to build against the agreed on set of common APIs, ensuring they can be used in any .NET application—mobile, desktop, IoT, web, or 
+anywhere you write .NET code.
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````
+https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework
+````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+USE OF .NET STANTRD
+`````````````````````
+1.NET CORE-----OTHER 2 TWO IN .NET FRAME 
+WITH OUT USING OR REWRITTING THE CODE AND AND SHARE THE CODE
+
+
+
+
+keywords---- reserved words
+
+indentifiers-- names given by users
+
+literals--- literals are the values which we give
+ex int number=50
+int is the keyword
+number is identifier
+50 is the value we give
+
+long @int  this @int has become identifier
+
+
+---------------to print something in console or output:
+  System.Console.WriteLine("Hello");
+        System.Console.ReadKey(); --------------- to get output in the screen 
+
+
+
+
+
+using System;--------------------------------------importing namespcaess
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+------------------importing name spaces--------------------
+namespace----collection of class ... any number of namespaces--------- ConsolAPP_Practice //// name space declaration 
+{
+    class Program /// any number of classs
+    {
+        static void Main(string[] args) ---------------main method section
+        {
+            System.Console.WriteLine("Hello");
+            System.Console.ReadKey();
+
+        }
+    }
+}
+
+
+any number class in namespace 
+but class name should be different
+
+only one main function
+
+
+
+ class---key word used to define a class. 
+ Program --- class name            // class declaration
+    {
+        static ----is a keyword which means object is not required  to access static members of a class
+              -------it saves memmory
+        void--------is a keyword function is not anything  Main ---- method name , main entry for the program
+        (string[] args)----------is used for command line argument === this method is public
+        {
+            System.Console.WriteLine("Hello");-----------------system===inbuilt namespace and console===== is the classs defined in system namespace
+                  writeline---------is a method or function of console class .... used to wrire text on the console(screen)declared inside classs
+                  writeline willl be printing in the new line
+                  write will be perinting in the horizontal
+		  
+            System.Console.ReadKey();
+
+        }
+    }
+
+------all the properties and methods in the console class are static, we dont require console class instance to access them 
+------instance are objects
+-------console class are valibale in system namespace 
+
+---------// for commenting /**/
+-------background, forebackground are the properties
+and writrline and alll the function------------ with paranthesies
+
+------------methods
+clear()--- to clear
+beep()--play beep
+write
+writeline
+read()--single char
+readline()----datatype--- string
+readkey----------int
+
+-------------Concatenate two strings using + operator-----------------------------
+  var text1 = "world";
+            System.Console.WriteLine("Hello" + text1);
+
+-------------------------------printing conatcated string using formatted string-----------------------------
+            var text2 = "hello";
+            System.Console.WriteLine("{0} {1}", text2, text1);
+
+---------------Reading user Data---------------------------
+
+1. read() ---- reads the next character from keyboard, and returrns asciii value of the charcter
+2. readline()---- reads the nextline of input as a string from keyboard,returns string
+3. readkey()------ obtaibs the next key pressed by the user
+
+
+===========//reading user data
+            System.Console.WriteLine("Enter a string:");
+            string str = System.Console.ReadLine();
+            System.Console.WriteLine("You have entered:" +str);
+            System.Console.ReadKey();
+
+
+=================  //read
+            System.Console.WriteLine("Enter a Character:");
+            //string str = System.Console.Read(); // error will come becoz we are  sttoring integer values in string
+            int str = System.Console.Read();
+            System.Console.WriteLine("Ascii value is:" + str);
+            System.Console.WriteLine("Ascii value is:{0}", str);
+            System.Console.ReadKey();
+
+
+            //readkey()
+            // System.Console.WriteLine("Press any key:");
+            //System.Console.ReadKey();
+
+            //reading number data
+            //int num1, num2;
+            //System.Console.WriteLine("Enter two nos:");
+            //num1 = int.Parse(System.Console.ReadLine());
+            //num2 = int.Parse(System.Console.ReadLine());
+            //System.Console.WriteLine("Sum of two numbers are:" +(num1+num2));
+            //System.Console.ReadKey();
+
+            //int num1, num2,total;
+            //System.Console.WriteLine("Enter two nos:");
+            //num1 = int.Parse(System.Console.ReadLine()); ;
+            //num2 = int.Parse(System.Console.ReadLine());
+            //total = num1 + num2;
+            //System.Console.WriteLine("Sum of two numbers are:" +total);
+            //System.Console.ReadKey();
+
+            ///using parse method
+
+            //System.Console.WriteLine("Enter two nos:");
+            //string num1 = (System.Console.ReadLine());
+            //string num2 = (System.Console.ReadLine());
+            //int total = int.Parse(num1) + int.Parse(num2);
+            //System.Console.WriteLine("Sum of two numbers are:" + total);
+            //System.Console.ReadKey();
+
+
+            //or
+
+
+            //System.Console.WriteLine("Enter  two nos:");
+            //int sum = int.Parse(System.Console.ReadLine()) + int.Parse(System.Console.ReadLine());
+            //System.Console.WriteLine("sum is:" + sum);
+            //System.Console.ReadKey();
+
+            //using convert.toint32
+
+            System.Console.WriteLine("Enter two nos:");
+           int num1 = System.Convert.ToInt32(System.Console.ReadLine());
+          int  num2 = System.Convert.ToInt32(System.Console.ReadLine());
+            System.Console.WriteLine("Sum of two numbers are:" + (num1 + num2));
+            System.Console.ReadKey();
+
+
+
+---------------------------------to run on terminal----------------------------------------------------
+
+cd.\foldername\
+cse program.cs
+.\program.exe
+
+
+-------------------------------------------namespace--------------------------------------------------
+namespace is not mandontary .. but it is used
+we can include nested namespaces
+members of namespace:-
+1.namespaces(called nested namespace)
+2. classes
+3. interfaces
+4. structures
+5.delegegates --- pointer to functions
+
+default namespace-----system
+
+cw tab tab to get console.write
+
+----------namespace can be included in a program  using the using keyword 
+----------so that we can use the member without using the .operator
+
+--------------------------------------------variables-----------------------------------------------------
+Explicit
+int myAge;
+myAge = 30
+
+Implicit Variables: Type will be automatically assigned
+var value = 30
+
+
+------------------------------------naming conventions----------------------------------------------------
+1. Camel Case ---- small-Captital-Captial eg:- myProgramDemo
+2. Pascal case ---- capital - Capital eg-PascalCase,GetElementById
+3. underscore prefix ---- the name begins  with underscore character and for the rest of the word use camelcase
+   eg- _myProgramDemo
+
+---General rules:
+class names --- pascalcase
+method names/function names should be --- pascal case
+varaiables and method parameters -- camelCase
+
+*** DONOT USE underscore prefix for locaL VARAIBLE names
+*** use underscore perfix for  all member variables
+
+use pascal case for file names
+--------------------------------------------------------------------------------------------------------------
+------------------------------------------------TYPE CASTING--------------------------------------------------
+Implicit conversion---automatic type conversion 
+==============================================================================================================
+
+Boxing and unboxing
+
+value type,reference type and pointer type
+
+value type ----> ref type ===>Boxing
+ref type -----> value type ===> unboxing
+
+value of any type can be converted and treated as an object
+=========Boxing========(Implicit conversion process)
+int , char, ------> objects
+   //boxing 
+            int mynum = 35;
+            object myobj = mynum; // can convert any any datatype to object
+            Console.WriteLine(mynum); 
+            Console.WriteLine(myobj);
+            Console.ReadKey();
+
+**** VALUE TYPE  VARIABLES ARE ALWAYS STORED IN STACK
+**** REFERENCE TYPE STORED IN HEAP
+
+ // Logical operators
+            // AND --&&
+            //Boolean res = (a == b) && (a > b); //false
+            //Console.WriteLine(res);
+            //Console.ReadKey();
+
+            //or
+            //Boolean res = (a == b) || (a > b);
+            //Console.WriteLine(res);
+            //Console.ReadKey();
+
+            //unary operators
+
+            //int i = 10,res;
+            // res = +i; // equivalent to i
+            // res = -i;
+            //Console.WriteLine("+i=" +res);
+            //Console.ReadKey();
+
+            //pre and post increment
+            //int j = 10;
+            //Console.WriteLine(j++); //10
+            //Console.WriteLine(++j); //11
+            //Console.WriteLine(j--); //10
+            //Console.WriteLine(--j); //9
+            //Console.ReadKey();
+
+
+            //ternary
+            //int k = 4;
+            //string res = (k % 2 == 0) ? "Even" : "odd";
+            //Console.WriteLine(res);
+            //Console.ReadKey();
+
+            //is
+
+            //int h = 40;
+            //Console.WriteLine(h is int);
+            //Console.WriteLine(h is long);
+            //Console.WriteLine("test" is "test");
+            //Console.WriteLine("test" is "Test");
+            //Console.ReadKey();
+
+
+            //as     --------saame tye casting
+            //explicity converts the result of an expression to a given reference or nullable value type
+            string str = "hello";
+            object obj = str;
+            string str1 = obj as string;  // trying to cast obj  to string
+            if (str1 != null)
+            {
+                Console.WriteLine("sucessfully");
+            }
+         
+            Console.ReadKey();
+
+----typeof is an operator used to get the type object for a specified type at compiled time
+eg-     Console.WriteLine(typeof(int));
+----gettype function used to know the type of specified oobject at run time.
+eg-   Console.WriteLine((myvar).GetType());
+-----sizeof -- is an operator used to obtain the sizeof of value type(int,char,bool etc) in bytes not with refrenece type
+
+int ----- 4 bytes
+float --- 4 bytes
+char -----2 bytes
+double -- 8 bytes
+boolean - 1 byte
+
+----------------------Operator precedence---------------
+BODMAS
+PEDMAS --- Parantheses---->Exponents(squareroot/square)--->Division---->multiplication--->Addition--->Substraction
+precedence of -- and ++ is higher than * 
+
+
+(2+3)*(4-1)+8/2
+(2+3)=5
+(4-1)=3
+8/2=4
+19
+
+(++x) * (y--)+(x-(--y))
+
+if you dont know bodmas rules then */ as same precedence  
+if two operators are with same  precedence then it should be in left to right
+
+
+============================================LOOPs======================================
+for(initialization;condition;iteration)
+
+
+
+SOLID PRINCIPLES OF OOPS
+
+
+=========================================arrays=====================================
+collection of similar types of data
+
+declare 
+int[] array_name;
+eg- int[] marks;
+
+//allocate memory
+marks = new int[5];
+
+
+//declaration and memory allocation in a single step
+
+int[] marks= new int[5];
+
+// declaration
+            // int[] marks;
+            // allocating memory
+
+            //allocate memory
+            // marks = new int[5];
+
+
+            //declaration and memory allocation in a single step
+
+            // int[] marks = new int[5];
+
+            //int marks[] = new int[5]; // compile time error
+
+            // array initialization -- at time of declaration
+            //int[] marks = new int[5] { 10, 20, 30, 40, 50 }; //method1
+
+            //int[] arr = new int[] { 10, 20, 30, 40, 50 }; // method2
+
+            //int[] marks1 = { 10, 20, 30, 40, 50 };   //method3
+
+
+            //or we can use an index number
+
+            //int[] marks = new int[5];
+            //marks[0] = 40;
+            //marks[1] = 89;
+            //marks[2] = 77;
+            //marks[3] = 80;
+            //marks[4] = 60;
+
+            ////how to access array elements  and update 
+
+            //Console.WriteLine("Mark 1:" + marks[0]);
+            //Console.WriteLine("Mark 2:" + marks[1]);
+
+            ////updating 
+            //marks[2] = 100;
+            //Console.WriteLine("upadted Mark 3:" + marks[2]);
+
+
+            ////length of the array using 
+            //Console.WriteLine("length of array:" +marks.Length);
+            //Console.ReadKey();
+
+            //traverse the array elements using loop
+            //int[] marks = { 20, 22, 34, 23, 98 };
+            //for (int i=0; i < marks.Length; i++)
+            //{
+            //    //Console.WriteLine("marks" +(i+1) +":"+ marks[i]);
+
+            //    Console.WriteLine("marks {0} : {1}",i+1,marks[i]);
+            //}
+
+
+            //foreach  
+            // we can print index directly
+            //int index = 1;//for printing index
+            // int[] marks = { 20, 22, 34, 23, 98 };
+            // foreach(int i in marks)
+            // {
+            //     Console.WriteLine("mark"+ index + ":" +i);
+            //     index++;
+            // }
+
+            int[] marks = {20, 22, 34, 23, 98};
+            //int min = marks[0];
+            //for (int i=0; i < marks.Length; i++)
+            //{
+            //   Console.WriteLine("marks" +(i+1) +":"+ marks[i]);
+            //    if (marks[i]<min)
+            //    {
+            //        min = marks[i];
+            //    }
+
+            //}
+            //   Console.WriteLine("Minimum Value:" +marks.Max());
+
+            //array operations using system.linq namesapce
+            //Console.WriteLine("Minimum Value:" + marks.Max());
+            //Console.WriteLine("Minimum Value:" + marks.Count());
+            //Console.WriteLine("Minimum Value:" + marks.Sum());
+
+
+            //two- dimensional arrays
+
+            //declaration
+
+            int[,] arr = new int[2, 3];
+            //initialization
+            int[,] arr1 = { { 1, 2, 3 }, { 4, 5, 6 } };  //2x3 matrix
+
+
+            //traversing using  for loop
+
+            //int rows = arr1.GetLength(0); //getLength(0) - numbers of elements along the  1st dimensional (no. of rows)
+            //int cols = arr1.GetLength(1);// getlength(1) - number of elements along the 2nd dimension (no. of columns)
+            ////Console.WriteLine(cols);
+
+            // for(int i = 0; i <rows; i++ )
+            // {
+            //    for(int j=0;j<cols; j++)
+            //    {
+            //        Console.Write(arr1[i,j] +"\t"); 
+            //    }
+            //    Console.WriteLine();
+            // }
+            //Console.ReadKey();
+            
+//jagged array
+syntax:
+datatype[][] array_name = new datatype[rows][];
+eg:declare a jagged array with rows of variable length
+int[][] arr1 = new int [2][];
+
+
+
+==========================================String===========================================
+
+            //string str = "hello world";
+            //Console.WriteLine("string is:" +str);
+
+            ////length of a string
+            //int strln = str.Length;
+            //Console.WriteLine("length of string:" +strln);
+
+            ////join two strings
+            //string str1 = "how are you";
+            //string joinstr = string.Concat(str, str1);
+            //Console.WriteLine("Conacted string:" +joinstr);
+
+
+            ////string methods 
+            ////equals
+            //bool compareres = str.Equals(str1);
+            //Console.WriteLine(compareres);
+            //Console.ReadKey();
+
+
+            //string interpolation
+            //the string literal must begin with $ character
+            //string str = "hai", str1 = "hello";
+            //string full =$"{str} hfg {str1} f";
+            //Console.WriteLine(full);
+            //Console.ReadKey();
+
+            string str3 = "hello";  //strings are immmutable
+            str3 = "world";
+            Console.WriteLine(str3);
+            // string builder class 
+            Console.ReadKey();
+stringbuilder
+since strings are immutable . when we repeatedly assign/concatenate value to string
+(eg: while using a loop), the whole memory will increase excution time.
+the sting builder class in c# is used to append remove insert or modify characters within a string 
+without creating a new string object
+
+
+
+==================================================================================================
+
+OOOPS
+
+Class == considered as logical entity
+entity -- whatever u see in the world us basically an entity
+or all the actors(role) you see in the world 
+eg: student,car,animal
+
+if you are considering class then every class should have this 2 specifications
+2 specifications
+1.every entity will have some attributes
+2. it will have some behaviour
+
+this is how you identify an entity
+human beings have attributes like eyes ears legs etc
+we have behvaiours and that behvaiours are called actions
+
+behaviours--- actions
+attributes of a human being entity-- legs eyes 
+behaviour -- human being can speak
+a human beign can walk
+
+---if you see those two specifications in any entity you can map that entity or you can write that entity inside a c# class
+
+technically this attributes are called -----------------> properties  and behaviours----------------> are called methods
+
+properties can be also called as fields varibales to store data
+methods dunctions to perform specific tasks
+
+========================================================================
+Methods
+access_specifiers return_type methodname()
+{
+//method body
+}
+
+method overloading-- methods with  same name but different parameters
+
+
+======================================================================
+Static 	Members
+
+static members are insitalized only once
+normally when we craete object,instance of all members are created for each object 
+eg-if we have class 'Car' each car (object) you created from this class will have its own unique properties like color speed model and so on
+and these variables and properties are called instance varibales 
+but when we decalre a member of a class a static, it means no matter how many objects of the class are created there is
+only one copy of the static member 
+keyword --- static
+
+** instant varibales are related to --objects 
+static members are like special piceses of data or behaviour that are shared by all instance of a class and belong to the class itself rather than
+to any specific object created from that class 
+
+they are usefull for things that are common to all objects of that class
+
+================================================================================
+Constant
+a variable whose value cannot be changed or modified once after its declaration
+constant variables are static by default(maintains only one copy for all objects)
+its mandatory to inistalize a constant variabke at the time of its declaration
+keyword== const
+
+
+**** instance varibles can be called by objects 
+static or const can be accesed by class 
+
+==================================================================================
+read-only variable
+keyword: readonly
+non-static (means separate copy for each object)
+it is not mandatory to initialize at the time of declaration
+but once insitalized , we cannot change the value
+
+a const variable(being static)--- is a fixed value for the complete class, cannot be changed once initialized
+where aas a read only variable is a fixed value and also non-static but specific to one object of the class 
+obj1.num=20;'
+obj1.num=25 cannit be // error'
+obj2.num==34; //ok
+
+=================================================================================================================
+Constructor 
+--------------
+special types of methods of a class that are automatically executed  whenever we create an instance of that class
+they initialize the class object and allots memory for the objevt
+
+should habe same as the class name
+no return type includng void is not allowed
+
+class car
+{
+public car(){
+ }
+}
+
+Car obj = new car()
+types:
+parametersless
+parameterized
+default
+copy--
+we use copy constructor to create an object by copying data from an another object 
+the main purpose of copy constructor is to initialize a new objecy with the values of an existing object
+private---
+if we are declaring a constructor as private we cannot create object of the cLASS IN ANOTHER CLASS
+this kind of constructor are used to create object for the class within the same class
+static--
+it will be invoked only once 
+it is going to be invoked only once when the class is loaded for the first time. regardless of how many objects are created 
+
+
+===============================================================================================
+Destructor
+==============================================================================================
+---the object of class is destroyed by garabage collector(gc)
+1. at the end of pgm execution
+2. if memory is full
+3. explicitly by gc.collect
+`symbol
+==================================================================
+Encapsulation
+used to restrict accessing the peropertied of a class to the outside world
+in this the sensitive data is hidden from the users
+
+use acess specifiers  to clare fields as private 
+use properties to create public get and set method to access the update  the private members
+
+Access specifiers and access modifiers
+they are used to define the scope  of the type as well as the scope of their members 
+
+TYPe:- classes structs enum  interfaces delegates
+type members
+variavles properties constructors methods within a tyoe 
+popular access specifiers are 
+1. private -- most restricted . within the class
+2. public  -- accessable for all the classes
+3. prottected -- within in same class and inherited classs
+4. Internal   -- only within files in the same assesmbly(.dll)
+
+
+also protected internal , private protected etc
+
+  class car
+    {
+        //access specifiers
+        public string model1 = "BMW";
+       private string model2 = "Mini cooper";
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            car c = new car();
+            Console.WriteLine(c.model1);
+            //Console.WriteLine(c.model2); //private
+            Console.ReadKey();
+        }
+    }
+
+we know that protected memebers are accesable in the same class or in the inherited class
+but inorder to access the protected member of parent class inside child class, accesss the protrcted member using child classes object
+
+Internal access specifiers
+-----------------------------------------
+an assembly is a project that has been compiled into .dll or .exe for the purpose of vissual studio 
+we can logically call a project as an assembly group
+
+===============================
+****
+I.public access specifiers is the global access specifiers 
+i.e
+1. It is accessable inside the same class 
+2. Outside the class 
+3. In same assembly(Within the project) --- add name space 
+4. In different assemble(in two different project)
+   === add reference 
+   === make the class public
+   === add namespace
+II. Internal access specifiers is only accessible in the same assembly(not possible in different projects)
+select project--> add --> reference---> projects --> select the project u want to add
+or 
+goto project-> references-->projects-->select the project you want to add
+** default access specifier for a class is internal.
+
+==================================================================================================================
+Type and Type members
+----------------------
+Types
+most fundamental type-- class
+internal,public 
+type members ----all the 5 types
+=====================================================
+Properties
+Private membersof a class can only be accessable within the same classs
+other class have no access to it 
+So in order to access the private members out side the class using properties
+property is a combination of variable and a methods 
+it has to methods 
+get --- to get the value of a varibale and set is to assign a value to a variable
+========================================================================================
+Inheritance
+-------------------
+The process of creating a new class from existing class such that the new class accqures all the properties and behaviours of the existing class
+use: resusability 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
